@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>String_lessons build log</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+<tt>
+Build started on: <u>29-08-2022 at 14:16.37</u><br />
+Build ended on: <u>29-08-2022 at 14:16.37</u><p />
+<b>-------------- Build: Debug in String_lessons (compiler: Use it for projects       = MinGW GCC + Strict)---------------</b><br />
+g++.exe  -c C:\Users\Serge\CodeBlocks\Projects\String_lessons\functions.cpp -o obj\Debug\functions.o -Wall -fexceptions  -g  -Wshadow -Winit-self -Wredundant-decls -Wcast-align -Wundef -Wfloat-equal -Winline -Wunreachable-code -Wmissing-declarations -Wmissing-include-dirs -Wswitch-enum -Wswitch-default -Weffc++ -Wmain -Wextra -Wall -g -pipe -fexceptions -Wcast-qual -Wconversion -Wctor-dtor-privacy -Wempty-body -Wformat-security -Wformat=2 -Wignored-qualifiers -Wlogical-op -Wmissing-field-initializers -Wnon-virtual-dtor -Woverloaded-virtual -Wpointer-arith -Wsign-promo -Wstack-usage=8192 -Wstrict-aliasing -Wstrict-null-sentinel -Wtype-limits -Wwrite-strings -D_DEBUG -D_EJUDGE_CLIENT_SIDE -D_EJC<br />
+g++.exe  -c C:\Users\Serge\CodeBlocks\Projects\String_lessons\main.cpp -o obj\Debug\main.o -Wall -fexceptions  -g  -Wshadow -Winit-self -Wredundant-decls -Wcast-align -Wundef -Wfloat-equal -Winline -Wunreachable-code -Wmissing-declarations -Wmissing-include-dirs -Wswitch-enum -Wswitch-default -Weffc++ -Wmain -Wextra -Wall -g -pipe -fexceptions -Wcast-qual -Wconversion -Wctor-dtor-privacy -Wempty-body -Wformat-security -Wformat=2 -Wignored-qualifiers -Wlogical-op -Wmissing-field-initializers -Wnon-virtual-dtor -Woverloaded-virtual -Wpointer-arith -Wsign-promo -Wstack-usage=8192 -Wstrict-aliasing -Wstrict-null-sentinel -Wtype-limits -Wwrite-strings -D_DEBUG -D_EJUDGE_CLIENT_SIDE -D_EJC<br />
+In file included from C:\Users\Serge\CodeBlocks\Projects\String_lessons\functions.cpp:2:0:<br />
+<font color="#0000ff">C:\Users\Serge\CodeBlocks\Projects\String_lessons\functions.h:20:41: warning: redundant redeclaration of 'char* fgets(char*, int, FILE*)' in same scope [-Wredundant-decls]</font><br />
+ char *fgets(char *s, int n, FILE *stream);<br />
+                                         ^<br />
+In file included from C:\Users\Serge\CodeBlocks\Projects\String_lessons\functions.cpp:1:0:<br />
+<font color="#0000ff">c:\users\serge\codeblocks\mingw\include\stdio.h:354:39: warning: previous declaration of 'char* fgets(char*, int, FILE*)' [-Wredundant-decls]</font><br />
+ _CRTIMP char* __cdecl __MINGW_NOTHROW fgets (char*, int, FILE*);<br />
+                                       ^<br />
+C:\Users\Serge\CodeBlocks\Projects\String_lessons\functions.cpp: In function 'char* fgets(char*, int, FILE*)':<br />
+<font color="#0000ff">C:\Users\Serge\CodeBlocks\Projects\String_lessons\functions.cpp:126:34: warning: conversion to 'char' from 'int' may alter its value [-Wconversion]</font><br />
+         next_letter = getc(stream);<br />
+                                  ^<br />
+C:\Users\Serge\CodeBlocks\Projects\String_lessons\functions.cpp: In function 'char* strdup(char*)':<br />
+<font color="#0000ff">C:\Users\Serge\CodeBlocks\Projects\String_lessons\functions.cpp:158:10: warning: address of local variable 'p' returned [-Wreturn-local-addr]</font><br />
+     char p[len];<br />
+          ^<br />
+C:\Users\Serge\CodeBlocks\Projects\String_lessons\functions.cpp: In function 'char* getline(char*, int)':<br />
+<font color="#0000ff">C:\Users\Serge\CodeBlocks\Projects\String_lessons\functions.cpp:169:31: warning: conversion to 'char' from 'int' may alter its value [-Wconversion]</font><br />
+         char letter = getchar();<br />
+                               ^<br />
+C:\Users\Serge\CodeBlocks\Projects\String_lessons\functions.cpp: In function 'char* strdup(char*)':<br />
+<font color="#0000ff">C:\Users\Serge\CodeBlocks\Projects\String_lessons\functions.cpp:161:1: warning: stack usage might be unbounded [-Wstack-usage=]</font><br />
+ }<br />
+ ^<br />
+In file included from C:\Users\Serge\CodeBlocks\Projects\String_lessons\main.cpp:4:0:<br />
+<font color="#0000ff">C:\Users\Serge\CodeBlocks\Projects\String_lessons\functions.h:20:41: warning: redundant redeclaration of 'char* fgets(char*, int, FILE*)' in same scope [-Wredundant-decls]</font><br />
+ char *fgets(char *s, int n, FILE *stream);<br />
+                                         ^<br />
+In file included from C:\Users\Serge\CodeBlocks\Projects\String_lessons\main.cpp:2:0:<br />
+<font color="#0000ff">c:\users\serge\codeblocks\mingw\include\stdio.h:354:39: warning: previous declaration of 'char* fgets(char*, int, FILE*)' [-Wredundant-decls]</font><br />
+ _CRTIMP char* __cdecl __MINGW_NOTHROW fgets (char*, int, FILE*);<br />
+                                       ^<br />
+C:\Users\Serge\CodeBlocks\Projects\String_lessons\main.cpp: In function 'int main()':<br />
+<font color="#0000ff">C:\Users\Serge\CodeBlocks\Projects\String_lessons\main.cpp:9:18: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]</font><br />
+     char *str1 = "rty";<br />
+                  ^<br />
+<font color="#0000ff">C:\Users\Serge\CodeBlocks\Projects\String_lessons\main.cpp:10:10: warning: unused variable 'str2' [-Wunused-variable]</font><br />
+     char str2[] = "qwe";<br />
+          ^<br />
+g++.exe  -o bin\Debug\String_lessons.exe obj\Debug\functions.o obj\Debug\main.o<br />
+Output size is 1,48 MB<br />
+<font color="#0000ff">Process terminated with status 0 (0 minutes, 0 seconds)</font><br />
+<font color="#0000ff">0 errors, 10 warnings (0 minutes, 0 seconds)</font><br />
+</tt>
+</body>
+</html>

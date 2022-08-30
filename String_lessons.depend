@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1661770899 source:c:\users\serge\codeblocks\projects\string_lessons\main.cpp
+	<iostream>
+	<stdio.h>
+	"functions.h"
+
+1661771797 c:\users\serge\codeblocks\projects\string_lessons\functions.h
+
+1661770736 source:c:\users\serge\codeblocks\projects\string_lessons\functions.cpp
+	<stdio.h>
+	"functions.h"
+
